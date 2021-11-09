@@ -15,8 +15,26 @@
             <pubDate>Tue, 09 Nov 2021 21:05:20 +0700</pubDate>
             
             <guid>https://jauhariandi.github.io/posts/2021/11/cara-membuat-web-statis-hugo-dan-upload-ke-repository-github/</guid>
-            <description></description>
-            <content type="html"><![CDATA[]]></content>
+            <description>Heading 1 Heading 2 Heading 3 Heading 4 Heading 5 Heading 6 This Italic Text
+This Italic Text
+This is Bold Text
+npm install def testing: </description>
+            <content type="html"><![CDATA[<h1 id="heading-1">Heading 1</h1>
+<h2 id="heading-2">Heading 2</h2>
+<h3 id="heading-3">Heading 3</h3>
+<h4 id="heading-4">Heading 4</h4>
+<h5 id="heading-5">Heading 5</h5>
+<h6 id="heading-6">Heading 6</h6>
+<!-- raw HTML omitted -->
+<p>This <em>Italic</em> Text</p>
+<p>This <em>Italic</em> Text</p>
+<!-- raw HTML omitted -->
+<p>This is <strong>Bold</strong> Text</p>
+<!-- raw HTML omitted -->
+<pre><code>npm install
+</code></pre><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">    <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">testing</span>:
+        
+</code></pre></div>]]></content>
         </item>
         
     </channel>
