@@ -17,7 +17,7 @@
             <guid>https://jauhariandi.github.io/posts/2021/11/cara-membuat-web-statis-hugo-dan-upload-ke-repository-github/</guid>
             <description>Introduction Hugo dan GitPage Hugo adalah salah satu Site Static Generator (SSG) paling populer saat ini. Penggunaannya sangat sederhana, efesien dan mudah untuk dideploy. Instalasi, clone theme dari github ataupun dari official website Hugo, edit file configuration kemudian deploy selanjutnya web statis anda sudah jadi.
 Github Pages adalah hosting web static yang disediakan oleh Github, dimana tersedia 1 GB penyimpanan gratis serta dapat membangun web statis dari repository github secara langsung.</description>
-            <content type="html"><![CDATA[<p><img src="/static/hugo+github.jpg" alt="Hugo + Github"></p>
+            <content type="html"><![CDATA[<p><img src="hugo+github.jpg" alt="Hugo + Github"></p>
 <h1 id="introduction-hugo-dan-gitpage">Introduction Hugo dan GitPage</h1>
 <p>Hugo adalah salah satu Site Static Generator (SSG) paling populer saat ini. Penggunaannya sangat sederhana, efesien dan mudah untuk dideploy. Instalasi, clone theme dari github ataupun dari official website <a href="https://themes.gohugo.io/"><strong>Hugo</strong></a>, edit file configuration kemudian deploy selanjutnya web statis anda sudah jadi.</p>
 <p><a href="https://pages.github.com/"><strong>Github Pages</strong></a> adalah hosting web static yang disediakan oleh <a href="https://github.com/"><strong>Github</strong></a>, dimana tersedia 1 GB penyimpanan gratis serta dapat membangun web statis dari repository github secara langsung.</p>
