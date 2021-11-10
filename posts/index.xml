@@ -15,26 +15,90 @@
             <pubDate>Tue, 09 Nov 2021 21:05:20 +0700</pubDate>
             
             <guid>https://jauhariandi.github.io/posts/2021/11/cara-membuat-web-statis-hugo-dan-upload-ke-repository-github/</guid>
-            <description>Heading 1 Heading 2 Heading 3 Heading 4 Heading 5 Heading 6 This Italic Text
-This Italic Text
-This is Bold Text
-npm install def testing: </description>
-            <content type="html"><![CDATA[<h1 id="heading-1">Heading 1</h1>
-<h2 id="heading-2">Heading 2</h2>
-<h3 id="heading-3">Heading 3</h3>
-<h4 id="heading-4">Heading 4</h4>
-<h5 id="heading-5">Heading 5</h5>
-<h6 id="heading-6">Heading 6</h6>
-<!-- raw HTML omitted -->
-<p>This <em>Italic</em> Text</p>
-<p>This <em>Italic</em> Text</p>
-<!-- raw HTML omitted -->
-<p>This is <strong>Bold</strong> Text</p>
-<!-- raw HTML omitted -->
-<pre><code>npm install
-</code></pre><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">    <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">testing</span>:
-        
-</code></pre></div>]]></content>
+            <description>Introduction Hugo dan GitPage Hugo adalah salah satu Site Static Generator (SSG) paling populer saat ini. Penggunaannya sangat sederhana, efesien dan mudah untuk dideploy. Instalasi, clone theme dari github ataupun dari official website Hugo, edit file configuration kemudian deploy selanjutnya web statis anda sudah jadi.
+Github Pages adalah hosting web static yang disediakan oleh Github, dimana tersedia 1 GB penyimpanan gratis serta dapat membangun web statis dari repository github secara langsung.</description>
+            <content type="html"><![CDATA[<p><img src="/static/hugo+github.jpg" alt="Hugo + Github"></p>
+<h1 id="introduction-hugo-dan-gitpage">Introduction Hugo dan GitPage</h1>
+<p>Hugo adalah salah satu Site Static Generator (SSG) paling populer saat ini. Penggunaannya sangat sederhana, efesien dan mudah untuk dideploy. Instalasi, clone theme dari github ataupun dari official website <a href="https://themes.gohugo.io/"><strong>Hugo</strong></a>, edit file configuration kemudian deploy selanjutnya web statis anda sudah jadi.</p>
+<p><a href="https://pages.github.com/"><strong>Github Pages</strong></a> adalah hosting web static yang disediakan oleh <a href="https://github.com/"><strong>Github</strong></a>, dimana tersedia 1 GB penyimpanan gratis serta dapat membangun web statis dari repository github secara langsung.</p>
+<p>Di artikel ini akan dijelaskan how-to membangun web statis dengan hugo kemudian menguloadnya ke repository github selanjutnya dapat diakses melalui github pages.</p>
+<h2 id="step1-instalasi">Step1. Instalasi</h2>
+<p><strong>Instal Hugo</strong></p>
+<p>Buka terminal dan jalankan perintah berikut :</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">brew install hugo
+</code></pre></div><p>untuk memastikan proses instalasi berhasil jalan perintah berikut di terminal :</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">hugo version
+</code></pre></div><p><strong>Instal Git</strong></p>
+<p>Unduh file exe git di situs resminya <a href="https://git-scm.com/downloads"><strong>Git</strong></a>, sesuaikan dengan sistem operasi komputer anda. Jalankan instalasi git sampai selesai.</p>
+<p>Buka terminal dan jalankan perintah berikut untuk memastikan apakah git sudah terinstal dengan benar.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git --version
+</code></pre></div><p>Setelah Hugo dan Git selesai diinstal kita lanjutkan ke langkah selanjutnya.</p>
+<h2 id="step2-build-web-statis-dengan-hugo">Step2. Build Web Statis dengan Hugo</h2>
+<p>Sekarang kita akan membangun web statis dengan hugo di komputer lokal terlebih dahulu.</p>
+<p><strong>Set up the Site</strong></p>
+<p>Tentukan folder yang akan dijadikan tempat menyimpan project website anda. Kemudian buka terminal pada pada folder tersebut dan jalankan perintah hugo untuk membuat site baru. Pada contoh ini saya akan menyimpannya di folder hugo dengan nama project Websiteku</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">E:<span style="color:#ae81ff">\h</span>ugo
+? hugo new site Websiteku
+</code></pre></div><p>dengan perintah di atas hugo menggenerate sebuah folder Websiteku dan semua folder dan file yg dibutuhkan untuk sebuah web statis.</p>
+<p><img src="/static/new_site_hugo.png" alt="new site hugo"></p>
+<p>Struktur folder yang digenerate oleh perintah hugo di atas bisa kita lihat seperti berikut :</p>
+<p><img src="/static/struktur_web_hugo.png" alt="struktur_web_hugo"></p>
+<p>Sekarang kita sudah berhasil membuat sebuah project web statis dengan hugo. Mari kita pelajari kegunaan dari masing-masing folder dan file pada struktur folder site statis hugo di atas. Di sini saya akan membahas beberapa yang penting menurut saya.</p>
+<ul>
+<li>
+<p><strong>config.toml</strong> : ini adalah file tempat membuat semua konfigurasi website statis hugo. Anda dapat mempelajari dokumentasi lengkapnya di sini <a href="https://gohugo.io/getting-started/configuration/"><em>Configure Hugo</em></a></p>
+</li>
+<li>
+<p><strong>content</strong> : Semua kontent dari website anda baik itu post, halaman akan disimpan di dalam folder ini.</p>
+</li>
+<li>
+<p><strong>themes</strong> : theme yang digunakan oleh website statis anda akan disimpan di dalam folder ini.</p>
+</li>
+</ul>
+<p>Baik, sekarang lanjutkan dengan memilih theme untuk project webiste hugo.</p>
+<h2 id="memilih-dan-menginstal-theme">Memilih dan Menginstal Theme</h2>
+<p>Hugo menyediakan banyak theme yang gratis maupun yang premium untuk kita gunakan. Anda dapat melihatnya di <a href="https://themes.gohugo.io/"><em>sini</em></a>. Untuk project ini saya menggunakan theme &ldquo;<a href="https://github.com/rhazdon/hugo-theme-hello-friend-ng"><em>hello-friend-ng</em></a>&rdquo;. Mari kita install theme.</p>
+<p>Ada 2 cara untuk menginstal theme pada hugo :</p>
+<ol>
+<li>Dengan cara mendownload langsung theme kemudian letakkan di dalam folder theme pada project hugo.</li>
+<li>Melakukan cloning dari repository theme di github ke dalam folder theme project hugo.</li>
+</ol>
+<p>Di sini saya menggunakan cara yang kedua.</p>
+<p>Buka terminal pada folder project hugo kemudian jalan perintah git untuk melakukan cloning.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">E:<span style="color:#ae81ff">\h</span>ugo<span style="color:#ae81ff">\W</span>ebsiteku
+? git clone https://github.com/rhazdon/hugo-theme-hello-friend-ng.git themes/hello-friend-ng
+</code></pre></div><p>Setelah selesai cloning makan theme sudah tersedia di dalam project kita dan siap untuk kita gunakan.
+<img src="/static/cloning_theme.png" alt="cloning_theme"></p>
+<p>Setelah theme diinstal selanjutnya kita konfigurai pada file configuration.toml supaya theme dapat digunakan. Hal ini dapat kita lakukan dengan mengganti carra mereplace file <em>config.toml</em> yang ada di dalam root folder <em>Websiteku</em> dengan file <em>config.toml</em> yang ada di dalam folder <em>themes/hello-friend-ng/exampleSite/</em>. Ini adalah file configurasi bawaan dari themenya.</p>
+<p>Kita Lanjutkan dengan membuat content/post di project hugo.</p>
+<h2 id="membuat-postkontent-di-hugo">Membuat post/kontent di Hugo</h2>
+<p>Untuk membuat postingan di hugo adalah dengan menjalan perintah berikut pada direktori tempat porject hugo kita :</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">E:<span style="color:#ae81ff">\h</span>ugo<span style="color:#ae81ff">\W</span>ebsiteku
+? hugo new post<span style="color:#ae81ff">\p</span>ost1.md
+</code></pre></div><p>Penjelasan :</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">hugo new 
+</code></pre></div><p>perintah untuk membuat post/konten di hugo</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">post<span style="color:#ae81ff">\p</span>ost1.md 
+</code></pre></div><p><em>post</em> adalah folder tempat menyimpat content ini otomatis digenerate di dalam folder content dan <em>post1.md</em> adalah nama file kontent.</p>
+<p>dengan perintah di atas kita sudah berhasil membuat kontent pada web hugo
+<img src="/static/post1.png" alt="post1"></p>
+<p>Selanjutnya kita buka file <em>post1.md</em> dengan text editor seperti notepad dan edit bagian <em>draft</em> ubah nilainya menjadi <em>false</em> supaya menjadi publish saat website dijalankan, dan tambahkan teks sebagai isi dari kontent.</p>
+<pre><code>---
+title: &quot;Post1&quot;
+date: 2021-11-10T21:50:30+07:00
+draft: false
+---
+
+Ini Adalah Contoh Postingan di Hugo
+</code></pre><p>Selanjutnya menjalankan server hugo supaya website bisa diakses. Jalankan perintah berikut pada terminal di direktori project hugo.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">E:<span style="color:#ae81ff">\h</span>ugo<span style="color:#ae81ff">\W</span>ebsiteku
+? hugo server
+</code></pre></div><p>hugo akan membuild website sesuai dengan konfigurasi pada file <em>config.toml</em> dan memberitahu website dapat diakses pada <em>http://localhost:1313/</em></p>
+<p><img src="/static/hugo_server.png" alt="hugo_server"></p>
+<p>Sekarang mari kita akses webiste kita pada browser</p>
+<p><img src="/static/localhost_post1.png" alt="localhost_post1"></p>
+<h2 id="_selamat-_-_anda-sudah-berhasil-membuat-web-statis-dengan-hugo-pada-komputer-lokal_"><em><strong>Selamat !</strong></em>, <em>anda sudah berhasil membuat web statis dengan hugo pada komputer lokal.</em></h2>
+]]></content>
         </item>
         
     </channel>
