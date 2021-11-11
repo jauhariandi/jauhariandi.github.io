@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author" content="Andi Sumbayak ">
+<meta name="description" content="Introcution Github Pages Github Pages adalah hosting web static yang disediakan oleh Github, dimana tersedia 1 GB penyimpanan gratis serta dapat membangun web statis dari repository github secara langsung.
+Pada seri ini, akan dijelaskan cara mengupload web statis Hugo ke repository github kemudian mengkasesnya memlalui Github Pages.
+So, Stay tuned ya guys. " />
+<meta name="keywords" content="" />
+<meta name="robots" content="noodp" />
+<meta name="theme-color" content="" />
+<link rel="canonical" href="https://jauhariandi.github.io/posts/2021/11/hugo.-seri-2.-mengupload-ke-github-pages/" />
+
+
+    <title>
+        
+            HUGO. Seri 2. Mengupload ke Github Pages :: Hi, I&#39;m Andi Sumbayak  — Hello Friend NG Theme
+        
+    </title>
+
+
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css" rel="stylesheet"
+    type="text/css">
+
+
+
+<link rel="stylesheet" href="https://jauhariandi.github.io/main.672db4689dc5642de5414c42e1e25cf5fadb60282ca8397433c5ee14fe43dd91.css">
+
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="https://jauhariandi.github.io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://jauhariandi.github.io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://jauhariandi.github.io/favicon-16x16.png">
+    <link rel="manifest" href="https://jauhariandi.github.io/site.webmanifest">
+    <link rel="mask-icon" href="https://jauhariandi.github.io/safari-pinned-tab.svg" color="">
+    <link rel="shortcut icon" href="https://jauhariandi.github.io/favicon.ico">
+    <meta name="msapplication-TileColor" content="">
+    <meta name="theme-color" content="">
+
+
+
+<meta itemprop="name" content="HUGO. Seri 2. Mengupload ke Github Pages">
+<meta itemprop="description" content="Introcution Github Pages Github Pages adalah hosting web static yang disediakan oleh Github, dimana tersedia 1 GB penyimpanan gratis serta dapat membangun web statis dari repository github secara langsung.
+Pada seri ini, akan dijelaskan cara mengupload web statis Hugo ke repository github kemudian mengkasesnya memlalui Github Pages.
+So, Stay tuned ya guys. ">
+<meta itemprop="datePublished" content="2021-11-11T21:24:36+07:00" />
+<meta itemprop="dateModified" content="2021-11-11T21:24:36+07:00" />
+<meta itemprop="wordCount" content="52">
+<meta itemprop="image" content="https://jauhariandi.github.io/"/>
+
+
+
+<meta itemprop="keywords" content="" />
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://jauhariandi.github.io/"/>
+
+<meta name="twitter:title" content="HUGO. Seri 2. Mengupload ke Github Pages"/>
+<meta name="twitter:description" content="Introcution Github Pages Github Pages adalah hosting web static yang disediakan oleh Github, dimana tersedia 1 GB penyimpanan gratis serta dapat membangun web statis dari repository github secara langsung.
+Pada seri ini, akan dijelaskan cara mengupload web statis Hugo ke repository github kemudian mengkasesnya memlalui Github Pages.
+So, Stay tuned ya guys. "/>
+
+
+
+
+    <meta property="og:title" content="HUGO. Seri 2. Mengupload ke Github Pages" />
+<meta property="og:description" content="Introcution Github Pages Github Pages adalah hosting web static yang disediakan oleh Github, dimana tersedia 1 GB penyimpanan gratis serta dapat membangun web statis dari repository github secara langsung.
+Pada seri ini, akan dijelaskan cara mengupload web statis Hugo ke repository github kemudian mengkasesnya memlalui Github Pages.
+So, Stay tuned ya guys. " />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://jauhariandi.github.io/posts/2021/11/hugo.-seri-2.-mengupload-ke-github-pages/" />
+<meta property="og:image" content="https://jauhariandi.github.io/"/>
+<meta property="article:published_time" content="2021-11-11T21:24:36+07:00" />
+<meta property="article:modified_time" content="2021-11-11T21:24:36+07:00" />
+
+
+
+
+
+
+    <meta property="article:published_time" content="2021-11-11 21:24:36 &#43;0700 &#43;07" />
+
+
+
+
+
+
+
+
+
+
+    </head>
+
+    
+        <body>
+    
+    
+        <div class="container">
+            <header class="header">
+    <span class="header__inner">
+        <a href="https://jauhariandi.github.io/" style="text-decoration: none;">
+    <div class="logo">
+        
+            <span class="logo__mark">></span>
+            <span class="logo__text">Andi Sumbayak</span>
+            <span class="logo__cursor" style=
+                  "
+                   
+                   ">
+            </span>
+        
+    </div>
+</a>
+
+
+        <span class="header__right">
+            
+                <nav class="menu">
+    <ul class="menu__inner"><li><a href="https://jauhariandi.github.io/about">About</a></li><li><a href="https://jauhariandi.github.io/posts/">Posts</a></li>
+        <div class="submenu">
+            <li class="dropdown">
+                <a href="javascript:void(0)" class="dropbtn">en</a>
+                <div class="dropdown-content">
+                    
+                        
+                    
+                </div>
+            </li>
+        </div>
+    </ul>
+</nav>
+
+                <span class="menu-trigger">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                    </svg>
+                </span>
+            
+        </span>
+    </span>
+</header>
+
+
+            <div class="content">
+                
+  <main class="post">
+
+    <div class="post-info">
+      <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock">
+          <circle cx="12" cy="12" r="10"></circle>
+          <polyline points="12 6 12 12 16 14"></polyline>
+        </svg>
+        One minute
+
+        
+      </p>
+    </div>
+
+    <article>
+      <h1 class="post-title">
+        <a href="https://jauhariandi.github.io/posts/2021/11/hugo.-seri-2.-mengupload-ke-github-pages/">HUGO. Seri 2. Mengupload ke Github Pages</a>
+      </h1>
+
+      
+
+      
+
+      
+
+      <div class="post-content">
+        <p><img src="https://jauhariandi.github.io/static/hugo+github.jpg" alt="hugo-github"></p>
+<h2 id="introcution-github-pages">Introcution Github Pages</h2>
+<p><a href="https://pages.github.com/"><strong>Github Pages</strong></a> adalah hosting web static yang disediakan oleh <a href="https://github.com/"><strong>Github</strong></a>, dimana tersedia 1 GB penyimpanan gratis serta dapat membangun web statis dari repository github secara langsung.</p>
+<p>Pada seri ini, akan dijelaskan cara mengupload web statis Hugo ke repository github kemudian mengkasesnya memlalui Github Pages.</p>
+<h2 id="so-stay-tuned-ya-guys">So, Stay tuned ya guys.</h2>
+
+      </div>
+    </article>
+
+    <hr />
+
+    <div class="post-info">
+      
+      
+
+      <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text">
+          <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+          <polyline points="14 2 14 8 20 8"></polyline>
+          <line x1="16" y1="13" x2="8" y2="13"></line>
+          <line x1="16" y1="17" x2="8" y2="17"></line>
+          <polyline points="10 9 9 9 8 9"></polyline>
+        </svg>
+        52 Words
+      </p>
+
+      <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar">
+          <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+          <line x1="16" y1="2" x2="16" y2="6"></line>
+          <line x1="8" y1="2" x2="8" y2="6"></line>
+          <line x1="3" y1="10" x2="21" y2="10"></line>
+        </svg>
+        
+          2021-11-11 21:24
+        
+
+         
+          
+        
+      </p>
+    </div>
+
+    
+    <div class="pagination">
+        <div class="pagination__title">
+            <span class="pagination__title-h"></span>
+            <hr />
+        </div>
+
+        <div class="pagination__buttons">
+            
+
+            
+            <span class="button next">
+                <a href="https://jauhariandi.github.io/posts/2021/11/hugo.-seri-1.-membuat-web-statis-dengan-hugo-pada-komputer-lokal/">
+                    <span class="button__text">HUGO. Seri 1. Membuat Web Statis dengan Hugo pada Komputer Lokal</span>
+                    <span class="button__icon">→</span>
+                </a>
+            </span>
+            
+        </div>
+    </div>
+
+
+    
+
+    
+
+  </main>
+
+            </div>
+
+            
+                <footer class="footer">
+    
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>&copy; 2021</span>
+            <span><a href="https://jauhariandi.github.io/">Andi Sumbayak</a></span>
+            <span><a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a></span>
+            <span><a href="https://jauhariandi.github.io/posts/index.xml" target="_blank" title="rss"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a></span>
+            
+        </div>
+    </div>
+    
+    
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>Powered by <a href="http://gohugo.io">Hugo</a></span><span>Made with &#10084; by <a href="https://github.com/rhazdon">Djordje Atlialp</a></span>
+        </div>
+    </div>
+    
+</footer>
+
+            
+        </div>
+
+        
+
+
+
+<script type="text/javascript" src="https://jauhariandi.github.io/bundle.min.ace63d93098bf623f7c286a9084a4c22bfc482944c734f87fe0b685c7c6c7fa0ad2edb028c3b4b60d3343720c8ab490b320ad7f8edf4f6e9a6b898fc529057a9.js" integrity="sha512-rOY9kwmL9iP3woapCEpMIr/EgpRMc0&#43;H/gtoXHxsf6CtLtsCjDtLYNM0NyDIq0kLMgrX&#43;O309ummuJj8UpBXqQ=="></script>
+
+
+
+    </body>
+</html>
