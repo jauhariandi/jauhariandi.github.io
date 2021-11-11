@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author" content="Andi Sumbayak ">
+<meta name="description" content="Introduction Hugo dan GitPage Hugo adalah salah satu Site Static Generator (SSG) paling populer saat ini. Penggunaannya sangat sederhana, efesien dan mudah untuk dideploy. Instalasi, clone theme dari github ataupun dari official website Hugo, edit file configuration kemudian deploy selanjutnya web statis anda sudah jadi.
+Github Pages adalah hosting web static yang disediakan oleh Github, dimana tersedia 1 GB penyimpanan gratis serta dapat membangun web statis dari repository github secara langsung." />
+<meta name="keywords" content="" />
+<meta name="robots" content="noodp" />
+<meta name="theme-color" content="" />
+<link rel="canonical" href="https://jauhariandi.github.io/posts/2021/11/hugo.-seri-1.-membuat-web-statis-dengan-hugo-pada-komputer-lokal/" />
+
+
+    <title>
+        
+            HUGO. Seri 1. Membuat Web Statis dengan Hugo pada Komputer Lokal :: Hi, I&#39;m Andi Sumbayak  — Hello Friend NG Theme
+        
+    </title>
+
+
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css" rel="stylesheet"
+    type="text/css">
+
+
+
+<link rel="stylesheet" href="https://jauhariandi.github.io/main.672db4689dc5642de5414c42e1e25cf5fadb60282ca8397433c5ee14fe43dd91.css">
+
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="https://jauhariandi.github.io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://jauhariandi.github.io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://jauhariandi.github.io/favicon-16x16.png">
+    <link rel="manifest" href="https://jauhariandi.github.io/site.webmanifest">
+    <link rel="mask-icon" href="https://jauhariandi.github.io/safari-pinned-tab.svg" color="">
+    <link rel="shortcut icon" href="https://jauhariandi.github.io/favicon.ico">
+    <meta name="msapplication-TileColor" content="">
+    <meta name="theme-color" content="">
+
+
+
+<meta itemprop="name" content="HUGO. Seri 1. Membuat Web Statis dengan Hugo pada Komputer Lokal">
+<meta itemprop="description" content="Introduction Hugo dan GitPage Hugo adalah salah satu Site Static Generator (SSG) paling populer saat ini. Penggunaannya sangat sederhana, efesien dan mudah untuk dideploy. Instalasi, clone theme dari github ataupun dari official website Hugo, edit file configuration kemudian deploy selanjutnya web statis anda sudah jadi.
+Github Pages adalah hosting web static yang disediakan oleh Github, dimana tersedia 1 GB penyimpanan gratis serta dapat membangun web statis dari repository github secara langsung.">
+<meta itemprop="datePublished" content="2021-11-09T21:05:20+07:00" />
+<meta itemprop="dateModified" content="2021-11-09T21:05:20+07:00" />
+<meta itemprop="wordCount" content="707">
+<meta itemprop="image" content="https://jauhariandi.github.io/"/>
+
+
+
+<meta itemprop="keywords" content="" />
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://jauhariandi.github.io/"/>
+
+<meta name="twitter:title" content="HUGO. Seri 1. Membuat Web Statis dengan Hugo pada Komputer Lokal"/>
+<meta name="twitter:description" content="Introduction Hugo dan GitPage Hugo adalah salah satu Site Static Generator (SSG) paling populer saat ini. Penggunaannya sangat sederhana, efesien dan mudah untuk dideploy. Instalasi, clone theme dari github ataupun dari official website Hugo, edit file configuration kemudian deploy selanjutnya web statis anda sudah jadi.
+Github Pages adalah hosting web static yang disediakan oleh Github, dimana tersedia 1 GB penyimpanan gratis serta dapat membangun web statis dari repository github secara langsung."/>
+
+
+
+
+    <meta property="og:title" content="HUGO. Seri 1. Membuat Web Statis dengan Hugo pada Komputer Lokal" />
+<meta property="og:description" content="Introduction Hugo dan GitPage Hugo adalah salah satu Site Static Generator (SSG) paling populer saat ini. Penggunaannya sangat sederhana, efesien dan mudah untuk dideploy. Instalasi, clone theme dari github ataupun dari official website Hugo, edit file configuration kemudian deploy selanjutnya web statis anda sudah jadi.
+Github Pages adalah hosting web static yang disediakan oleh Github, dimana tersedia 1 GB penyimpanan gratis serta dapat membangun web statis dari repository github secara langsung." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://jauhariandi.github.io/posts/2021/11/hugo.-seri-1.-membuat-web-statis-dengan-hugo-pada-komputer-lokal/" />
+<meta property="og:image" content="https://jauhariandi.github.io/"/>
+<meta property="article:published_time" content="2021-11-09T21:05:20+07:00" />
+<meta property="article:modified_time" content="2021-11-09T21:05:20+07:00" />
+
+
+
+
+
+
+    <meta property="article:published_time" content="2021-11-09 21:05:20 &#43;0700 &#43;07" />
+
+
+
+
+
+
+
+
+
+
+    </head>
+
+    
+        <body>
+    
+    
+        <div class="container">
+            <header class="header">
+    <span class="header__inner">
+        <a href="https://jauhariandi.github.io/" style="text-decoration: none;">
+    <div class="logo">
+        
+            <span class="logo__mark">></span>
+            <span class="logo__text">Andi Sumbayak</span>
+            <span class="logo__cursor" style=
+                  "
+                   
+                   ">
+            </span>
+        
+    </div>
+</a>
+
+
+        <span class="header__right">
+            
+                <nav class="menu">
+    <ul class="menu__inner"><li><a href="https://jauhariandi.github.io/about">About</a></li><li><a href="https://jauhariandi.github.io/posts/">Posts</a></li>
+        <div class="submenu">
+            <li class="dropdown">
+                <a href="javascript:void(0)" class="dropbtn">en</a>
+                <div class="dropdown-content">
+                    
+                        
+                    
+                </div>
+            </li>
+        </div>
+    </ul>
+</nav>
+
+                <span class="menu-trigger">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                    </svg>
+                </span>
+            
+        </span>
+    </span>
+</header>
+
+
+            <div class="content">
+                
+  <main class="post">
+
+    <div class="post-info">
+      <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock">
+          <circle cx="12" cy="12" r="10"></circle>
+          <polyline points="12 6 12 12 16 14"></polyline>
+        </svg>
+        4 minutes
+
+        
+      </p>
+    </div>
+
+    <article>
+      <h1 class="post-title">
+        <a href="https://jauhariandi.github.io/posts/2021/11/hugo.-seri-1.-membuat-web-statis-dengan-hugo-pada-komputer-lokal/">HUGO. Seri 1. Membuat Web Statis dengan Hugo pada Komputer Lokal</a>
+      </h1>
+
+      
+
+      
+
+      
+
+      <div class="post-content">
+        <p><img src="https://jauhariandi.github.io/static/hugo+github.jpg" alt="Hugo + Github"></p>
+<h2 id="introduction-hugo-dan-gitpage">Introduction Hugo dan GitPage</h2>
+<p>Hugo adalah salah satu Site Static Generator (SSG) paling populer saat ini. Penggunaannya sangat sederhana, efesien dan mudah untuk dideploy. Instalasi, clone theme dari github ataupun dari official website <a href="https://themes.gohugo.io/"><strong>Hugo</strong></a>, edit file configuration kemudian deploy selanjutnya web statis anda sudah jadi.</p>
+<p><a href="https://pages.github.com/"><strong>Github Pages</strong></a> adalah hosting web static yang disediakan oleh <a href="https://github.com/"><strong>Github</strong></a>, dimana tersedia 1 GB penyimpanan gratis serta dapat membangun web statis dari repository github secara langsung.</p>
+<p>Di artikel ini akan dijelaskan how-to membangun web statis dengan hugo kemudian menguloadnya ke repository github selanjutnya dapat diakses melalui github pages.</p>
+<h2 id="step1-instalasi">Step1. Instalasi</h2>
+<p><strong>Instal Hugo</strong></p>
+<p>Buka terminal dan jalankan perintah berikut :</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">brew install hugo
+</code></pre></div><p>untuk memastikan proses instalasi berhasil jalan perintah berikut di terminal :</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">hugo version
+</code></pre></div><p><strong>Instal Git</strong></p>
+<p>Unduh file exe git di situs resminya <a href="https://git-scm.com/downloads"><strong>Git</strong></a>, sesuaikan dengan sistem operasi komputer anda. Jalankan instalasi git sampai selesai.</p>
+<p>Buka terminal dan jalankan perintah berikut untuk memastikan apakah git sudah terinstal dengan benar.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git --version
+</code></pre></div><p>Setelah Hugo dan Git selesai diinstal kita lanjutkan ke langkah selanjutnya.</p>
+<h2 id="step2-build-web-statis-dengan-hugo">Step2. Build Web Statis dengan Hugo</h2>
+<p>Sekarang kita akan membangun web statis dengan hugo di komputer lokal terlebih dahulu.</p>
+<p><strong>Set up the Site</strong></p>
+<p>Tentukan folder yang akan dijadikan tempat menyimpan project website anda. Kemudian buka terminal pada pada folder tersebut dan jalankan perintah hugo untuk membuat site baru. Pada contoh ini saya akan menyimpannya di folder hugo dengan nama project Websiteku</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">E:<span style="color:#ae81ff">\h</span>ugo
+? hugo new site Websiteku
+</code></pre></div><p>dengan perintah di atas hugo menggenerate sebuah folder Websiteku dan semua folder dan file yg dibutuhkan untuk sebuah web statis.</p>
+<p><img src="https://jauhariandi.github.io/static/new_site_hugo.png" alt="new site hugo"></p>
+<p>Struktur folder yang digenerate oleh perintah hugo di atas bisa kita lihat seperti berikut :</p>
+<p><img src="https://jauhariandi.github.io/static/struktur_web_hugo.png" alt="struktur_web_hugo"></p>
+<p>Sekarang kita sudah berhasil membuat sebuah project web statis dengan hugo. Mari kita pelajari kegunaan dari masing-masing folder dan file pada struktur folder site statis hugo di atas. Di sini saya akan membahas beberapa yang penting menurut saya.</p>
+<ul>
+<li>
+<p><strong>config.toml</strong> : ini adalah file tempat membuat semua konfigurasi website statis hugo. Anda dapat mempelajari dokumentasi lengkapnya di sini <a href="https://gohugo.io/getting-started/configuration/"><em>Configure Hugo</em></a></p>
+</li>
+<li>
+<p><strong>content</strong> : Semua kontent dari website anda baik itu post, halaman akan disimpan di dalam folder ini.</p>
+</li>
+<li>
+<p><strong>themes</strong> : theme yang digunakan oleh website statis anda akan disimpan di dalam folder ini.</p>
+</li>
+</ul>
+<p>Baik, sekarang lanjutkan dengan memilih theme untuk project webiste hugo.</p>
+<h2 id="memilih-dan-menginstal-theme">Memilih dan Menginstal Theme</h2>
+<p>Hugo menyediakan banyak theme yang gratis maupun yang premium untuk kita gunakan. Anda dapat melihatnya di <a href="https://themes.gohugo.io/"><em>sini</em></a>. Untuk project ini saya menggunakan theme &ldquo;<a href="https://github.com/rhazdon/hugo-theme-hello-friend-ng"><em>hello-friend-ng</em></a>&rdquo;. Mari kita install theme.</p>
+<p>Ada 2 cara untuk menginstal theme pada hugo :</p>
+<ol>
+<li>Dengan cara mendownload langsung theme kemudian letakkan di dalam folder theme pada project hugo.</li>
+<li>Melakukan cloning dari repository theme di github ke dalam folder theme project hugo.</li>
+</ol>
+<p>Di sini saya menggunakan cara yang kedua.</p>
+<p>Buka terminal pada folder project hugo kemudian jalan perintah git untuk melakukan cloning.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">E:<span style="color:#ae81ff">\h</span>ugo<span style="color:#ae81ff">\W</span>ebsiteku
+? git clone https://github.com/rhazdon/hugo-theme-hello-friend-ng.git themes/hello-friend-ng
+</code></pre></div><p>Setelah selesai cloning makan theme sudah tersedia di dalam project kita dan siap untuk kita gunakan.</p>
+<p><img src="https://jauhariandi.github.io/static/cloning_theme.png" alt="cloning_theme"></p>
+<p>Setelah theme diinstal selanjutnya kita konfigurai pada file configuration.toml supaya theme dapat digunakan. Hal ini dapat kita lakukan dengan mengganti carra mereplace file <em>config.toml</em> yang ada di dalam root folder <em>Websiteku</em> dengan file <em>config.toml</em> yang ada di dalam folder <em>themes/hello-friend-ng/exampleSite/</em>. Ini adalah file configurasi bawaan dari themenya.</p>
+<p>Kita Lanjutkan dengan membuat content/post di project hugo.</p>
+<h2 id="membuat-postkontent-di-hugo">Membuat post/kontent di Hugo</h2>
+<p>Untuk membuat postingan di hugo adalah dengan menjalan perintah berikut pada direktori tempat porject hugo kita :</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">E:<span style="color:#ae81ff">\h</span>ugo<span style="color:#ae81ff">\W</span>ebsiteku
+? hugo new post<span style="color:#ae81ff">\p</span>ost1.md
+</code></pre></div><p>Penjelasan :</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">hugo new 
+</code></pre></div><p>perintah untuk membuat post/konten di hugo</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">post<span style="color:#ae81ff">\p</span>ost1.md 
+</code></pre></div><p><em>post</em> adalah folder tempat menyimpat content ini otomatis digenerate di dalam folder content dan <em>post1.md</em> adalah nama file kontent.</p>
+<p>dengan perintah di atas kita sudah berhasil membuat kontent pada web hugo</p>
+<p><img src="https://jauhariandi.github.io/static/post1.png" alt="post1"></p>
+<p>Selanjutnya kita buka file <em>post1.md</em> dengan text editor seperti notepad dan edit bagian <em>draft</em> ubah nilainya menjadi <em>false</em> supaya menjadi publish saat website dijalankan, dan tambahkan teks sebagai isi dari kontent.</p>
+<pre><code>---
+title: &quot;Post1&quot;
+date: 2021-11-10T21:50:30+07:00
+draft: false
+---
+
+Ini Adalah Contoh Postingan di Hugo
+</code></pre><p>Selanjutnya menjalankan server hugo supaya website bisa diakses. Jalankan perintah berikut pada terminal di direktori project hugo.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">E:<span style="color:#ae81ff">\h</span>ugo<span style="color:#ae81ff">\W</span>ebsiteku
+? hugo server
+</code></pre></div><p>hugo akan membuild website sesuai dengan konfigurasi pada file <em>config.toml</em> dan memberitahu website dapat diakses pada <em>http://localhost:1313/</em></p>
+<p><img src="https://jauhariandi.github.io/static/hugo_server.png" alt="hugo_server"></p>
+<p>Sekarang mari kita akses webiste kita pada browser</p>
+<p><img src="https://jauhariandi.github.io/static/localhost_post1.png" alt="localhost_post1"></p>
+<p><strong>Selamat,</strong> anda sudah berhasil membuat web statis dengan hugo pada komputer lokal.</p>
+
+      </div>
+    </article>
+
+    <hr />
+
+    <div class="post-info">
+      
+      
+
+      <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text">
+          <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+          <polyline points="14 2 14 8 20 8"></polyline>
+          <line x1="16" y1="13" x2="8" y2="13"></line>
+          <line x1="16" y1="17" x2="8" y2="17"></line>
+          <polyline points="10 9 9 9 8 9"></polyline>
+        </svg>
+        707 Words
+      </p>
+
+      <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar">
+          <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+          <line x1="16" y1="2" x2="16" y2="6"></line>
+          <line x1="8" y1="2" x2="8" y2="6"></line>
+          <line x1="3" y1="10" x2="21" y2="10"></line>
+        </svg>
+        
+          2021-11-09 21:05
+        
+
+         
+          
+        
+      </p>
+    </div>
+
+    
+
+    
+
+    
+
+  </main>
+
+            </div>
+
+            
+                <footer class="footer">
+    
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>&copy; 2021</span>
+            <span><a href="https://jauhariandi.github.io/">Andi Sumbayak</a></span>
+            <span><a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a></span>
+            <span><a href="https://jauhariandi.github.io/posts/index.xml" target="_blank" title="rss"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a></span>
+            
+        </div>
+    </div>
+    
+    
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>Powered by <a href="http://gohugo.io">Hugo</a></span><span>Made with &#10084; by <a href="https://github.com/rhazdon">Djordje Atlialp</a></span>
+        </div>
+    </div>
+    
+</footer>
+
+            
+        </div>
+
+        
+
+
+
+<script type="text/javascript" src="https://jauhariandi.github.io/bundle.min.ace63d93098bf623f7c286a9084a4c22bfc482944c734f87fe0b685c7c6c7fa0ad2edb028c3b4b60d3343720c8ab490b320ad7f8edf4f6e9a6b898fc529057a9.js" integrity="sha512-rOY9kwmL9iP3woapCEpMIr/EgpRMc0&#43;H/gtoXHxsf6CtLtsCjDtLYNM0NyDIq0kLMgrX&#43;O309ummuJj8UpBXqQ=="></script>
+
+
+
+    </body>
+</html>

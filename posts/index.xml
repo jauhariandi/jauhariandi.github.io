@@ -10,11 +10,11 @@
         <atom:link href="https://jauhariandi.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
         
         <item>
-            <title>Cara Membuat Web Statis Hugo dan Upload ke Repository Github</title>
-            <link>https://jauhariandi.github.io/posts/2021/11/cara-membuat-web-statis-hugo-dan-upload-ke-repository-github/</link>
+            <title>HUGO. Seri 1. Membuat Web Statis dengan Hugo pada Komputer Lokal</title>
+            <link>https://jauhariandi.github.io/posts/2021/11/hugo.-seri-1.-membuat-web-statis-dengan-hugo-pada-komputer-lokal/</link>
             <pubDate>Tue, 09 Nov 2021 21:05:20 +0700</pubDate>
             
-            <guid>https://jauhariandi.github.io/posts/2021/11/cara-membuat-web-statis-hugo-dan-upload-ke-repository-github/</guid>
+            <guid>https://jauhariandi.github.io/posts/2021/11/hugo.-seri-1.-membuat-web-statis-dengan-hugo-pada-komputer-lokal/</guid>
             <description>Introduction Hugo dan GitPage Hugo adalah salah satu Site Static Generator (SSG) paling populer saat ini. Penggunaannya sangat sederhana, efesien dan mudah untuk dideploy. Instalasi, clone theme dari github ataupun dari official website Hugo, edit file configuration kemudian deploy selanjutnya web statis anda sudah jadi.
 Github Pages adalah hosting web static yang disediakan oleh Github, dimana tersedia 1 GB penyimpanan gratis serta dapat membangun web statis dari repository github secara langsung.</description>
             <content type="html"><![CDATA[<p><img src="/static/hugo+github.jpg" alt="Hugo + Github"></p>
