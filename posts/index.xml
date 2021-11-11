@@ -97,7 +97,7 @@ Ini Adalah Contoh Postingan di Hugo
 <p><img src="/static/hugo_server.png" alt="hugo_server"></p>
 <p>Sekarang mari kita akses webiste kita pada browser</p>
 <p><img src="/static/localhost_post1.png" alt="localhost_post1"></p>
-<h2 id="_selamat_-_anda-sudah-berhasil-membuat-web-statis-dengan-hugo-pada-komputer-lokal_"><em><strong>Selamat,</strong></em> <em>anda sudah berhasil membuat web statis dengan hugo pada komputer lokal.</em></h2>
+<p><strong>Selamat,</strong> anda sudah berhasil membuat web statis dengan hugo pada komputer lokal.</p>
 ]]></content>
         </item>
         
