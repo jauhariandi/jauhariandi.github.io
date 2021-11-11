@@ -33,12 +33,13 @@ So, Stay tuned ya guys. </description>
             
             <guid>https://jauhariandi.github.io/posts/2021/11/hugo.-seri-1.-membuat-web-statis-dengan-hugo-pada-komputer-lokal/</guid>
             <description>Introduction Hugo Hugo adalah salah satu Site Static Generator (SSG) paling populer saat ini. Penggunaannya sangat sederhana, efesien dan mudah untuk dideploy. Instalasi, clone theme dari github ataupun dari official website Hugo, edit file configuration kemudian deploy selanjutnya web statis anda sudah jadi.
-Github Pages adalah hosting web static yang disediakan oleh Github, dimana tersedia 1 GB penyimpanan gratis serta dapat membangun web statis dari repository github secara langsung.
-Di artikel ini akan dijelaskan how-to membangun web statis dengan hugo di komputer lokal.</description>
+Di artikel ini akan dijelaskan how-to membangun web statis dengan hugo di komputer lokal.
+Step1. Instalasi Instal Hugo
+Buka terminal dan jalankan perintah berikut :
+brew install hugo untuk memastikan proses instalasi berhasil jalan perintah berikut di terminal :</description>
             <content type="html"><![CDATA[<p><img src="/static/hugo.png" alt="Hugo"></p>
 <h2 id="introduction-hugo">Introduction Hugo</h2>
 <p>Hugo adalah salah satu Site Static Generator (SSG) paling populer saat ini. Penggunaannya sangat sederhana, efesien dan mudah untuk dideploy. Instalasi, clone theme dari github ataupun dari official website <a href="https://themes.gohugo.io/"><strong>Hugo</strong></a>, edit file configuration kemudian deploy selanjutnya web statis anda sudah jadi.</p>
-<p><a href="https://pages.github.com/"><strong>Github Pages</strong></a> adalah hosting web static yang disediakan oleh <a href="https://github.com/"><strong>Github</strong></a>, dimana tersedia 1 GB penyimpanan gratis serta dapat membangun web statis dari repository github secara langsung.</p>
 <p>Di artikel ini akan dijelaskan how-to membangun web statis dengan hugo di komputer lokal.</p>
 <h2 id="step1-instalasi">Step1. Instalasi</h2>
 <p><strong>Instal Hugo</strong></p>
