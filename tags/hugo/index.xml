@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo on Hi, I&#39;m Andi Sumbayak</title>
+    <link>https://jauhariandi.github.io/tags/hugo/</link>
+    <description>Recent content in Hugo on Hi, I&#39;m Andi Sumbayak</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+    <lastBuildDate>Thu, 11 Nov 2021 21:24:36 +0700</lastBuildDate><atom:link href="https://jauhariandi.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>HUGO. Seri 2. Mengupload ke Github Pages</title>
+      <link>https://jauhariandi.github.io/posts/2021/11/hugo.-seri-2.-mengupload-ke-github-pages/</link>
+      <pubDate>Thu, 11 Nov 2021 21:24:36 +0700</pubDate>
+      
+      <guid>https://jauhariandi.github.io/posts/2021/11/hugo.-seri-2.-mengupload-ke-github-pages/</guid>
+      <description>Introcution Github Pages Github Pages adalah hosting web static yang disediakan oleh Github, dimana tersedia 1 GB penyimpanan gratis serta dapat membangun web statis dari repository github secara langsung.
+Pada seri ini, akan dijelaskan cara mengupload web statis Hugo ke repository github kemudian mengkasesnya memlalui Github Pages.
+Step1. Membuat Repository di Github Web statis yang diupload ke repository github nantinya akan diakses dengan alamat https://username.github.io oleh karenanya kita akan membuat repository di github dengan nama username.</description>
+    </item>
+    
+    <item>
+      <title>HUGO. Seri 1. Membuat Web Statis dengan Hugo pada Komputer Lokal</title>
+      <link>https://jauhariandi.github.io/posts/2021/11/hugo.-seri-1.-membuat-web-statis-dengan-hugo-pada-komputer-lokal/</link>
+      <pubDate>Tue, 09 Nov 2021 21:05:20 +0700</pubDate>
+      
+      <guid>https://jauhariandi.github.io/posts/2021/11/hugo.-seri-1.-membuat-web-statis-dengan-hugo-pada-komputer-lokal/</guid>
+      <description>Introduction Hugo Hugo adalah salah satu Site Static Generator (SSG) paling populer saat ini. Penggunaannya sangat sederhana, efesien dan mudah untuk dideploy. Instalasi, clone theme dari github ataupun dari official website Hugo, edit file configuration kemudian deploy selanjutnya web statis anda sudah jadi.
+Di artikel ini akan dijelaskan how-to membangun web statis dengan hugo di komputer lokal.
+Step1. Instalasi Instal Hugo
+Buka terminal dan jalankan perintah berikut :
+brew install hugo untuk memastikan proses instalasi berhasil jalan perintah berikut di terminal :</description>
+    </item>
+    
+  </channel>
+</rss>
