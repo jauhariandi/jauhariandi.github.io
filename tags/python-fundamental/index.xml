@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Python Fundamental on Hi, I&#39;m Andi Sumbayak</title>
+    <link>https://jauhariandi.github.io/tags/python-fundamental/</link>
+    <description>Recent content in Python Fundamental on Hi, I&#39;m Andi Sumbayak</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+    <lastBuildDate>Sat, 13 Nov 2021 19:19:38 +0700</lastBuildDate><atom:link href="https://jauhariandi.github.io/tags/python-fundamental/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Instalasi PyCharm</title>
+      <link>https://jauhariandi.github.io/posts/2021/11/instalasi-pycharm/</link>
+      <pubDate>Sat, 13 Nov 2021 19:19:38 +0700</pubDate>
+      
+      <guid>https://jauhariandi.github.io/posts/2021/11/instalasi-pycharm/</guid>
+      <description>Apa itu PyCharm ? PyCharm adalah sebuah IDE (Integrated Development Environment) yang dirancang khusus untuk programmer Python. PyCharm mengakomodasi semua kebutuhan tool essensial yang dibutuhkan oleh programmer Python untuk lebih produktif, seperti syntax highlight, compilasi code, tool database, navigasi project dan text editor programming.
+Sebelum instalasi, berikut adalah system requirements (OS Windows) yang dibutuhkan oleh PyCharm untuk dapat berjalan optimal :
+ 64-bit versions of Microsoft Windows 10, 8 2 GB RAM minimum, 8 GB RAM recommended 2.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -7,7 +7,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Thu, 11 Nov 2021 21:24:36 +0700</lastBuildDate><atom:link href="https://jauhariandi.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 13 Nov 2021 19:19:38 +0700</lastBuildDate><atom:link href="https://jauhariandi.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Instalasi PyCharm</title>
+      <link>https://jauhariandi.github.io/posts/2021/11/instalasi-pycharm/</link>
+      <pubDate>Sat, 13 Nov 2021 19:19:38 +0700</pubDate>
+      
+      <guid>https://jauhariandi.github.io/posts/2021/11/instalasi-pycharm/</guid>
+      <description>Apa itu PyCharm ? PyCharm adalah sebuah IDE (Integrated Development Environment) yang dirancang khusus untuk programmer Python. PyCharm mengakomodasi semua kebutuhan tool essensial yang dibutuhkan oleh programmer Python untuk lebih produktif, seperti syntax highlight, compilasi code, tool database, navigasi project dan text editor programming.
+Sebelum instalasi, berikut adalah system requirements (OS Windows) yang dibutuhkan oleh PyCharm untuk dapat berjalan optimal :
+ 64-bit versions of Microsoft Windows 10, 8 2 GB RAM minimum, 8 GB RAM recommended 2.</description>
+    </item>
+    
     <item>
       <title>HUGO. Seri 2. Mengupload ke Github Pages</title>
       <link>https://jauhariandi.github.io/posts/2021/11/hugo.-seri-2.-mengupload-ke-github-pages/</link>

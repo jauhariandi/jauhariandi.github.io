@@ -4,7 +4,7 @@
   
   <url>
     <loc>https://jauhariandi.github.io/</loc>
-    <lastmod>2021-11-11T21:24:36+07:00</lastmod>
+    <lastmod>2021-11-13T19:19:38+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -18,23 +18,33 @@
   </url>
   
   <url>
-    <loc>https://jauhariandi.github.io/tags/hugo/</loc>
-    <lastmod>2021-11-11T21:24:36+07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jauhariandi.github.io/posts/2021/11/hugo.-seri-2.-mengupload-ke-github-pages/</loc>
-    <lastmod>2021-11-11T21:24:36+07:00</lastmod>
+    <loc>https://jauhariandi.github.io/posts/2021/11/instalasi-pycharm/</loc>
+    <lastmod>2021-11-13T19:19:38+07:00</lastmod>
   </url>
   
   <url>
     <loc>https://jauhariandi.github.io/posts/</loc>
-    <lastmod>2021-11-11T21:24:36+07:00</lastmod>
+    <lastmod>2021-11-13T19:19:38+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jauhariandi.github.io/tags/pycharm/</loc>
+    <lastmod>2021-11-13T19:19:38+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jauhariandi.github.io/tags/python/</loc>
+    <lastmod>2021-11-13T19:19:38+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jauhariandi.github.io/tags/python-fundamental/</loc>
+    <lastmod>2021-11-13T19:19:38+07:00</lastmod>
   </url>
   
   <url>
     <loc>https://jauhariandi.github.io/tags/</loc>
-    <lastmod>2021-11-11T21:24:36+07:00</lastmod>
+    <lastmod>2021-11-13T19:19:38+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -45,6 +55,16 @@
                 hreflang="en"
                 href="https://jauhariandi.github.io/tags/"
                 />
+  </url>
+  
+  <url>
+    <loc>https://jauhariandi.github.io/tags/hugo/</loc>
+    <lastmod>2021-11-11T21:24:36+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jauhariandi.github.io/posts/2021/11/hugo.-seri-2.-mengupload-ke-github-pages/</loc>
+    <lastmod>2021-11-11T21:24:36+07:00</lastmod>
   </url>
   
   <url>

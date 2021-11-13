@@ -6,8 +6,65 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-        <lastBuildDate>Thu, 11 Nov 2021 21:24:36 +0700</lastBuildDate>
+        <lastBuildDate>Sat, 13 Nov 2021 19:19:38 +0700</lastBuildDate>
         <atom:link href="https://jauhariandi.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>Instalasi PyCharm</title>
+            <link>https://jauhariandi.github.io/posts/2021/11/instalasi-pycharm/</link>
+            <pubDate>Sat, 13 Nov 2021 19:19:38 +0700</pubDate>
+            
+            <guid>https://jauhariandi.github.io/posts/2021/11/instalasi-pycharm/</guid>
+            <description>Apa itu PyCharm ? PyCharm adalah sebuah IDE (Integrated Development Environment) yang dirancang khusus untuk programmer Python. PyCharm mengakomodasi semua kebutuhan tool essensial yang dibutuhkan oleh programmer Python untuk lebih produktif, seperti syntax highlight, compilasi code, tool database, navigasi project dan text editor programming.
+Sebelum instalasi, berikut adalah system requirements (OS Windows) yang dibutuhkan oleh PyCharm untuk dapat berjalan optimal :
+ 64-bit versions of Microsoft Windows 10, 8 2 GB RAM minimum, 8 GB RAM recommended 2.</description>
+            <content type="html"><![CDATA[<p><img src="/static/Pycharm.png" alt="Pycharm"></p>
+<h2 id="apa-itu-pycharm-">Apa itu PyCharm ?</h2>
+<p>PyCharm adalah sebuah IDE (Integrated Development Environment) yang dirancang khusus untuk programmer Python. PyCharm mengakomodasi semua kebutuhan tool essensial yang dibutuhkan oleh programmer Python untuk lebih produktif, seperti syntax highlight, compilasi code, tool database, navigasi project dan text editor programming.</p>
+<p>Sebelum instalasi, berikut adalah system requirements (OS Windows) yang dibutuhkan oleh PyCharm untuk dapat berjalan optimal :</p>
+<ul>
+<li>64-bit versions of Microsoft Windows 10, 8</li>
+<li>2 GB RAM minimum, 8 GB RAM recommended</li>
+<li>2.5 GB hard disk space, SSD recommended</li>
+<li>1024x768 minimum screen resolution</li>
+<li>Python 2.7, or Python 3.5 or newer</li>
+</ul>
+<h2 id="dua-jenis-edisi-lisenses-pycharm">Dua Jenis Edisi (Lisenses) PyCharm</h2>
+<p>Ada 2 jenis edisi (Lisensi) dari PyCharm yang dapat digunakan :</p>
+<ol>
+<li>
+<p>Professional Edition</p>
+<p>Adalah aplikasi versi berbayar dengan harga 199 US Dollar per user untuk tahun pertama.</p>
+</li>
+<li>
+<p>Community Edition</p>
+<p>Adalah aplikasi gratis yang bebas untuk digunakan dengan open source license.</p>
+</li>
+</ol>
+<p>Untuk lebih jelas mengenai perbedaan keduanya bisa dilihat langsung di web resminya :</p>
+<blockquote>
+<p><a href="https://blog.jetbrains.com/pycharm/2017/09/pycharm-community-edition-and-professional-edition-explained-licenses-and-more/">Explained PyCharm Community and PyCharm Professional Edition</a></p>
+</blockquote>
+<h2 id="proses-instalasi-pycharm">Proses Instalasi PyCharm</h2>
+<ol>
+<li><a href="https://www.jetbrains.com/pycharm/download/">Download</a> PyCharm dari web resminya pilih yang Community Edition.</li>
+<li>Double klik file exetucable (.exe) PyCharm yang sudah didownload untuk menjalankan instalasi.</li>
+<li>Lakukan Instalasi sampai selesai</li>
+</ol>
+<p><img src="/static/1instalpycharm.png" alt="instalpycharm"></p>
+<p>Tentukan directory tempat instalasi.</p>
+<p><img src="/static/2instalpycharm.png" alt="instalpycharm"></p>
+<p>Tambahkan Launcher ke dalam PATH</p>
+<p><img src="/static/3instalpycharm.png" alt="instalpycharm"></p>
+<p>Jalankan instalasi</p>
+<p><img src="/static/4instalpycharm.png" alt="instalpycharm"></p>
+<p>Proses Instalasi sedang berjalan, tunggu hingga selesai.</p>
+<p><img src="/static/5instalpycharm.png" alt="instalpycharm"></p>
+<p>Proses instalasi selesai.</p>
+<p><img src="/static/6instalpycharm.png" alt="instalpycharm"></p>
+<p>PyCharm sudah terinstal dengan sukses di komputer dan siap digunakan untuk kegiatan develop programming python anda.</p>
+]]></content>
+        </item>
         
         <item>
             <title>HUGO. Seri 2. Mengupload ke Github Pages</title>
