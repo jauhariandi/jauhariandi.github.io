@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Sat, 13 Nov 2021 19:19:38 +0700</lastBuildDate><atom:link href="https://jauhariandi.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 15 Nov 2021 19:50:41 +0700</lastBuildDate><atom:link href="https://jauhariandi.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Memulai Project Python Pada PyCharm Integrasi Dengan Vcs</title>
+      <link>https://jauhariandi.github.io/posts/2021/11/memulai-project-python-pada-pycharm-integrasi-dengan-vcs/</link>
+      <pubDate>Mon, 15 Nov 2021 19:50:41 +0700</pubDate>
+      
+      <guid>https://jauhariandi.github.io/posts/2021/11/memulai-project-python-pada-pycharm-integrasi-dengan-vcs/</guid>
+      <description>Apa itu VCS (Version Control System) ? Menurut Atlassian, version control system (VCS) adalah sebuah kumpulan perangkat lunak yang sudah terintegrasi dan digunakan untuk membantu software engineer mengelola perubahan dalam source code dari waktu ke waktu.
+VCS ini sangat penting terutama jika sebuah project software development dikerjakan oleh tim (lebih dari satu orang developer), dengan VCS ini masing-masing developer dapat melacak history perubahan code dari project yang mereka bangun yang dilakukan oleh developer lain dari tim mereka.</description>
+    </item>
+    
     <item>
       <title>Instalasi PyCharm</title>
       <link>https://jauhariandi.github.io/posts/2021/11/instalasi-pycharm/</link>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>PyCharm on Hi, I&#39;m Andi Sumbayak</title>
-    <link>https://jauhariandi.github.io/tags/pycharm/</link>
-    <description>Recent content in PyCharm on Hi, I&#39;m Andi Sumbayak</description>
+    <title>git on Hi, I&#39;m Andi Sumbayak</title>
+    <link>https://jauhariandi.github.io/tags/git/</link>
+    <description>Recent content in git on Hi, I&#39;m Andi Sumbayak</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Mon, 15 Nov 2021 19:50:41 +0700</lastBuildDate><atom:link href="https://jauhariandi.github.io/tags/pycharm/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 15 Nov 2021 19:50:41 +0700</lastBuildDate><atom:link href="https://jauhariandi.github.io/tags/git/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Memulai Project Python Pada PyCharm Integrasi Dengan Vcs</title>
       <link>https://jauhariandi.github.io/posts/2021/11/memulai-project-python-pada-pycharm-integrasi-dengan-vcs/</link>
@@ -19,14 +19,14 @@ VCS ini sangat penting terutama jika sebuah project software development dikerja
     </item>
     
     <item>
-      <title>Instalasi PyCharm</title>
-      <link>https://jauhariandi.github.io/posts/2021/11/instalasi-pycharm/</link>
-      <pubDate>Sat, 13 Nov 2021 19:19:38 +0700</pubDate>
+      <title>HUGO. Seri 2. Mengupload ke Github Pages</title>
+      <link>https://jauhariandi.github.io/posts/2021/11/hugo.-seri-2.-mengupload-ke-github-pages/</link>
+      <pubDate>Thu, 11 Nov 2021 21:24:36 +0700</pubDate>
       
-      <guid>https://jauhariandi.github.io/posts/2021/11/instalasi-pycharm/</guid>
-      <description>Apa itu PyCharm ? PyCharm adalah sebuah IDE (Integrated Development Environment) yang dirancang khusus untuk programmer Python. PyCharm mengakomodasi semua kebutuhan tool essensial yang dibutuhkan oleh programmer Python untuk lebih produktif, seperti syntax highlight, compilasi code, tool database, navigasi project dan text editor programming.
-Sebelum instalasi, berikut adalah system requirements (OS Windows) yang dibutuhkan oleh PyCharm untuk dapat berjalan optimal :
- 64-bit versions of Microsoft Windows 10, 8 2 GB RAM minimum, 8 GB RAM recommended 2.</description>
+      <guid>https://jauhariandi.github.io/posts/2021/11/hugo.-seri-2.-mengupload-ke-github-pages/</guid>
+      <description>Introcution Github Pages Github Pages adalah hosting web static yang disediakan oleh Github, dimana tersedia 1 GB penyimpanan gratis serta dapat membangun web statis dari repository github secara langsung.
+Pada seri ini, akan dijelaskan cara mengupload web statis Hugo ke repository github kemudian mengkasesnya memlalui Github Pages.
+Step1. Membuat Repository di Github Web statis yang diupload ke repository github nantinya akan diakses dengan alamat https://username.github.io oleh karenanya kita akan membuat repository di github dengan nama username.</description>
     </item>
     
   </channel>

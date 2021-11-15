@@ -6,8 +6,60 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-        <lastBuildDate>Sat, 13 Nov 2021 19:19:38 +0700</lastBuildDate>
+        <lastBuildDate>Mon, 15 Nov 2021 19:50:41 +0700</lastBuildDate>
         <atom:link href="https://jauhariandi.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>Memulai Project Python Pada PyCharm Integrasi Dengan Vcs</title>
+            <link>https://jauhariandi.github.io/posts/2021/11/memulai-project-python-pada-pycharm-integrasi-dengan-vcs/</link>
+            <pubDate>Mon, 15 Nov 2021 19:50:41 +0700</pubDate>
+            
+            <guid>https://jauhariandi.github.io/posts/2021/11/memulai-project-python-pada-pycharm-integrasi-dengan-vcs/</guid>
+            <description>Apa itu VCS (Version Control System) ? Menurut Atlassian, version control system (VCS) adalah sebuah kumpulan perangkat lunak yang sudah terintegrasi dan digunakan untuk membantu software engineer mengelola perubahan dalam source code dari waktu ke waktu.
+VCS ini sangat penting terutama jika sebuah project software development dikerjakan oleh tim (lebih dari satu orang developer), dengan VCS ini masing-masing developer dapat melacak history perubahan code dari project yang mereka bangun yang dilakukan oleh developer lain dari tim mereka.</description>
+            <content type="html"><![CDATA[<p><img src="/static/pc-github.png" alt="pc-github"></p>
+<h3 id="apa-itu-vcs-version-control-system-">Apa itu VCS (Version Control System) ?</h3>
+<p>Menurut <a href="https://www.atlassian.com/git/tutorials/what-is-version-control">Atlassian</a>, version control system (VCS) adalah sebuah kumpulan perangkat lunak yang sudah terintegrasi dan digunakan untuk membantu software engineer mengelola perubahan dalam source code dari waktu ke waktu.</p>
+<p>VCS ini sangat penting terutama jika sebuah project software development dikerjakan oleh tim (lebih dari satu orang developer), dengan VCS ini masing-masing developer dapat melacak history perubahan code dari project yang mereka bangun yang dilakukan oleh developer lain dari tim mereka. Sehingga apabila terjadi kesalahan (error) pada code dapat dengan cepat ditemukan.</p>
+<p>Saat ini salah satu software VCS yang paling banyak digunakan adalah git, dan github adalah salah satu platform web yang menyediakan tempat penyimpanan project software development dengan menggunakan software VCS git.</p>
+<h3 id="step1-membuat-repository-di-github">Step1. Membuat Repository di Github</h3>
+<ol>
+<li><a href="https://github.com/login">Login</a> ke akun github anda.</li>
+</ol>
+<p><img src="/static/login-github.png" alt="login-github"></p>
+<ol start="2">
+<li>Setelah login buat repository baru.</li>
+</ol>
+<p><img src="/static/new-repo-github.png" alt="new-repo-github"></p>
+<ol start="3">
+<li>Set repository anda seperti ini.</li>
+</ol>
+<p><img src="/static/set-new-repo-github.png" alt="set-new-repo-github"></p>
+<ol start="4">
+<li>Create Repository.</li>
+</ol>
+<p>Sekarang repository untuk tempat menyimpan project python anda sudah berhasil dibuat.</p>
+<h3 id="step2-clone-repository-github-ke-pycharm">Step2. Clone Repository Github ke PyCharm</h3>
+<ol>
+<li>Buka PyCharm, pada tab Projects pilih Get from VCS</li>
+</ol>
+<p><img src="/static/pycharm-new-from-vcs.png" alt="pycharm-new-from-vcs"></p>
+<ol start="2">
+<li>Buka repository github yang sudah dibuat, click pada bagian code kemudian copykan link (pilih HTTPS atau SSH)</li>
+</ol>
+<p><img src="/static/clone-repo-github.png" alt="clone-repo-github"></p>
+<ol start="3">
+<li>Pastekan link dari repository github yang sudah dicopy ke dalam PyCharm.</li>
+</ol>
+<p><img src="/static/clone-repo-pycharm.png" alt="clone-repo-pycharm"></p>
+<ol start="4">
+<li>Pilih Clone</li>
+</ol>
+<p>Repository github anda sudah berhasil diclone ke dalam PyCharm. Sekarang anda sudah bisa memulai project python di PyCharm untuk kemudian mengelolanya dengan dengan version control system git dari github.</p>
+<p><img src="/static/pycharm-github.png" alt="pycharm-github"></p>
+<p>Semoga bermanfaat.</p>
+]]></content>
+        </item>
         
         <item>
             <title>Instalasi PyCharm</title>
